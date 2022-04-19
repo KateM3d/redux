@@ -18,6 +18,7 @@ function App() {
       <button onClick={() => dispatch(incrementByAmount(5))}>+5</button>
       <button onClick={() => dispatch(decrementByAmount(5))}>-5</button>
       <button onClick={() => dispatch(multiplyByAmount(5))}>x5</button>
+      <p>test</p>
     </div>
   );
 }
